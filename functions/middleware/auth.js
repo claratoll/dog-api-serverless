@@ -15,7 +15,7 @@ const validateToken = {
       return request.response;
     } catch (error) {
       request.event.error = '401';
-      return request.response;
+      return;
     }
   },
 
